@@ -11,7 +11,7 @@ import (
 
 var ErrPayloadNotFound = errors.New("heartbleed: payload not found")
 
-var padding = []byte("YELLOW SUBMARINE")
+var padding = []byte("YELLOW SUBMARINEdasdsdsdasdasdasdadadadasdadasdasdasdasdadasdasdasdas")
 
 // struct {
 //    uint8  type;
