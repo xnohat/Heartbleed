@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	out, err := bleed.Heartbleed(os.Args[1], []byte("heartbleed.filippo.io"))
+	out, err := bleed.Heartbleed(os.Args[1], []byte("heartbleed.filippo.idasdasdsadasdsadsadso"))
 	if err == bleed.ErrPayloadNotFound {
 		log.Printf("%v - SAFE", os.Args[1])
 		os.Exit(1)
